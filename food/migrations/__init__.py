@@ -1,0 +1,1 @@
+#Empty file in migrations

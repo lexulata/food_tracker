@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1>My Food Tracker - View Meal</h1>
+			<table class="table table-bordered table-striped">
+				<tbody>
+					<tr>
+						<th>Food</th>
+						<th>{{ meal.food }}</th>
+					</tr>
+					<tr>
+						<th>Serving Size</th>
+						<th>{{ meal.serving_size }}</th>
+					</tr>
+					<tr>
+						<th>Meal Time</th>
+						<th>{{ meal.meal_time }}</th>
+					</tr>
+					<tr>
+						<th>Total Calories</th>
+						<th>{{ meal.get_total_calories }}</th>
+					</tr>
+					<tr>
+						<th>Total Fats</th>
+						<th>{{ meal.get_total_fats }}</th>
+					</tr>
+					<tr>
+						<th>Saturated Fat</th>
+						<th>{{ meal.get_total_saturated_fat }}</th>
+					</tr>
+					<tr>
+						<th>Cholesterol</th>
+						<th>{{ meal.get_total_cholesterol }}</th>
+					</tr>
+					<tr>
+						<th>Sodium</th>
+						<th>{{ meal.get_total_sodium }}</th>
+					</tr>
+					<tr>
+						<th>Total Carbohydrade</th>
+						<th>{{ meal.get_total_carbohydrate }}</th>
+					</tr>
+					<tr>
+						<th>Dietary Fibre</th>
+						<th>{{ meal.get_total_dietary_fibre }}</th>
+					</tr>
+					<tr>
+						<th>Sugar</th>
+						<th>{{ meal.get_total_sugar }}</th>
+					</tr>
+					<tr>
+						<th>Protein</th>
+						<th>{{ meal.get_total_protein }}</th>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>
